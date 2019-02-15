@@ -52,7 +52,7 @@ table {
 }
 
 header .logo {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 header .container {
@@ -283,9 +283,6 @@ footer nav a {
 
 .container .about-page {
     margin:0px;
-}
-.container .about-page .container { 
-    margin: 20px 20px;
 }
 
 .divider {
