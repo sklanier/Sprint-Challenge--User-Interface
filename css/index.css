@@ -145,6 +145,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: change;
+    animation-duration: 5s;
+    
 }
 
 .middle-content .boxes .box2 {
@@ -318,4 +321,9 @@ footer nav a {
 .container .about-page .row {
     display: flex;
     justify-content: space-evenly;
+}
+
+@keyframes change {
+    from {background-color: teal}
+    to {background-color: tomato}
 }
